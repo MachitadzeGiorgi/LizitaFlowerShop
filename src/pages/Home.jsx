@@ -16,16 +16,16 @@ function Home() {
         <nav className="nav-links">
           <ul>
             <li>
-              <Link to="/კატალოგი">კატალოგი</Link>
+              <Link to="/Products">კატალოგი</Link>
             </li>
             <li>
-              <Link to="/კალათა">კალათა</Link>
+              <Link to="/Cart">კალათა</Link>
             </li>
             <li>
-              <Link to="/ჩვენს-შესახებ">ჩვენს შესახებ</Link>
+              <Link to="/AboutUs">ჩვენს შესახებ</Link>
             </li>
             <li>
-              <Link to="/საკონტაქტო">კონტაქტი</Link>
+              <Link to="/Contact">კონტაქტი</Link>
             </li>
           </ul>
         </nav>
