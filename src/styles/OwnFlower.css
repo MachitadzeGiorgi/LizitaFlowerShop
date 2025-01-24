@@ -1,3 +1,71 @@
+/* .create-own-bunch {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  gap: 50px;
+  background-color: #ffe6ee;
+  border-radius: 10px;
+}
+
+.create-own-bunch .text-content {
+  max-width: 60%;
+  text-align: center;
+}
+
+.create-own-bunch h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: #333;
+  font-weight: bold;
+}
+
+.create-own-bunch p {
+  font-size: 20px;
+  color: #666;
+  line-height: 30px;
+  margin-bottom: 30px;
+  text-align: justify;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 8px;
+}
+
+.create-own-bunch button {
+  padding: 10px 20px;
+  background-color: #ff1493;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.create-own-bunch button:hover {
+  background-color: #c71585;
+}
+
+.create-own-bunch .image-container {
+  flex-shrink: 0;
+}
+
+.bunch-of-flowers-image {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.bunch-of-flowers-image:hover {
+  transform: scale(1.05);
+} */
+
+/* General Styles */
 .create-own-bunch {
   display: flex;
   justify-content: center;
@@ -63,4 +131,28 @@
 
 .bunch-of-flowers-image:hover {
   transform: scale(1.05);
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .create-own-bunch {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .flower-image {
+    width: 100%;
+  }
+
+  .create-own-bunch h1 {
+    font-size: 30px;
+  }
+
+  .create-own-bunch p {
+    font-size: 18px;
+  }
+
+  .create-own-bunch button {
+    padding: 12px 30px;
+  }
 }

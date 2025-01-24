@@ -1,3 +1,68 @@
+/* .footer {
+  padding: 50px;
+  background-color: whitesmoke;
+  text-align: center;
+  border-top: 4px solid #c71585;
+}
+
+.footer p {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.email-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.email-input {
+  padding: 15px;
+  width: 400px;
+  border: 2px solid white;
+  border-radius: 10px;
+  font-size: 18px;
+  color: #333;
+  background-color: white;
+}
+
+.email-input:focus {
+  outline: none;
+  border-color: #c71585;
+  box-shadow: 0px 0px 10px rgba(199, 21, 133, 0.6);
+}
+
+.submit-button {
+  padding: 15px 30px;
+  background-color: #c71585;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.submit-button:hover {
+  background-color: #a2106f;
+  transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+  .email-input {
+    width: 300px;
+  }
+
+  .submit-button {
+    padding: 12px 25px;
+    font-size: 16px;
+  }
+} */
+
+/* General Styles */
 .footer {
   padding: 50px;
   background-color: whitesmoke;
@@ -51,6 +116,7 @@
   transform: scale(1.05);
 }
 
+/* Responsive Styles */
 @media (max-width: 768px) {
   .email-input {
     width: 300px;

@@ -1,3 +1,56 @@
+/* .most-sold-flowers {
+  padding: 40px;
+  background-color: #fafafa;
+}
+
+.most-sold-flowers h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.flower-cards {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+.flower-card {
+  background-color: white;
+  padding: 30px;
+  width: 250px;
+  border-radius: 8px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.flower-card:hover {
+  transform: translateY(-10px);
+}
+
+.flower-card img {
+  width: 100%;
+  border-radius: 8px;
+  height: 220px;
+  object-fit: cover;
+}
+
+.flower-card h3 {
+  font-size: 24px;
+  margin-top: 15px;
+  color: #333;
+}
+
+.flower-card p {
+  font-size: 18px;
+  color: #777;
+  margin-top: 10px;
+  line-height: 1.5;
+  font-style: italic;
+} */
+
+/* General Styles */
 .most-sold-flowers {
   padding: 40px;
   background-color: #fafafa;
@@ -48,4 +101,35 @@
   margin-top: 10px;
   line-height: 1.5;
   font-style: italic;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .flower-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .flower-card {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+
+  .most-sold-flowers h2 {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  .flower-card img {
+    height: 180px;
+  }
+
+  .flower-card h3 {
+    font-size: 18px;
+  }
+
+  .flower-card p {
+    font-size: 16px;
+  }
 }
